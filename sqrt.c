@@ -18,6 +18,11 @@ int main(int argc, char* argv[]) {
 	}
 
 	int input = atoi(argv[1]);
+	
+	if(input<0){
+		printf("Input not valid");
+		return (0);
+	}
 	printf("Sqrt of %d is %f\n",input,sqrt(input));
 
 	printf("End of program. Exiting.");
