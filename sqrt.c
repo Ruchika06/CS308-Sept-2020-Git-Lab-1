@@ -32,12 +32,12 @@ int main(int argc, char* argv[]) {
 	int input = atoi(argv[1]);
 	
 	if(input<0){
-		printf("Input not valid");
+		printf("NEGSUPPORT: Input not valid");
 		return (0);
 	}
-	printf("Sqrt of %d is %f\n",input,sqrt(abs(input)));
+	printf("NEGSUPPORT: Sqrt of %d is %f\n",input,sqrt(input));
 
-	printf("End of program. Exiting.");
+	printf("NEGSUPPORT: End of program. Exiting.");
 
 	return (0);
 
