@@ -23,7 +23,7 @@ int main(int argc, char* argv[]) {
 		if (isalpha(userInputStr[x]))
 		{
 
-		    printf("Invalid input given by user \n");
+		    printf("DEBUG: Invalid input given by user \n");
 
 		  exit(-1); 
 		}
@@ -35,9 +35,9 @@ int main(int argc, char* argv[]) {
 		printf("NEGSUPPORT: Input not valid");
 		return (0);
 	}
-	printf("NEGSUPPORT: Sqrt of %d is %f\n",input,sqrt(input));
+	printf("DEBUG: Sqrt of %d is %f\n",input,sqrt(abs(input)));
 
-	printf("NEGSUPPORT: End of program. Exiting.");
+	printf("DEBUG: End of program. Exiting.");
 
 	return (0);
 
