@@ -35,7 +35,7 @@ int main(int argc, char* argv[]) {
 		printf("Input not valid");
 		return (0);
 	}
-	printf("Sqrt of %d is %f\n",input,sqrt(input));
+	printf("Sqrt of %d is %f\n",input,sqrt(abs(input)));
 
 	printf("End of program. Exiting.");
 
