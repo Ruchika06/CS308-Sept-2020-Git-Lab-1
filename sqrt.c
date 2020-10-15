@@ -16,7 +16,19 @@ int main(int argc, char* argv[]) {
 		printf("Usage: sqrt input\n\n");
 		exit(-1);
 	}
+	char* userInputStr;
+	userInputStr = argv[1];
+    	for ( int x = 0;userInputStr[x]!='\0' ; x++)
+    	{
+		if (isalpha(userInputStr[x]))
+		{
 
+		    printf("Invalid input given by user \n");
+
+		  exit(-1); 
+		}
+
+    	}
 	int input = atoi(argv[1]);
 	
 	if(input<0){

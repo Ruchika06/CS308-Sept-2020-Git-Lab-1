@@ -1,1 +1,5 @@
-./a.out
+*.[oa]
+*.out
+*.log
+*.node_modules
+*.~lm
